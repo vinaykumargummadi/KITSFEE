@@ -1,0 +1,104 @@
+$primary-color:#005dab;
+$secondary-color:#ea1f23;
+$white:#fff;
+$black:#000;
+$success:#2ec92e;
+*{
+    margin: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    // border: 1px solid red;
+
+}
+@mixin heading-font {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.filter-section{
+    .filter{
+        .search-btn{
+            border: 1px solid $primary-color;
+            color: $primary-color;
+        }
+        .search-btn:hover{
+            color: $white;
+            background-color: $primary-color;
+        }
+    }
+}
+.student-fee-table{
+    // box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.12);
+    thead{
+        th{
+            color: $primary-color;
+            @include heading-font();
+            vertical-align: middle!important;
+        }
+    }
+    .fee-pending{
+        color: $secondary-color;
+        font-weight: 600;
+    }
+    .fee-complete{
+        color: $success;
+        font-weight: 600;
+    }
+}
+.pagination-nav{
+    .pagination{
+        .page-item{
+            .page-link{
+                color: $primary-color;
+                border: 1px solid $primary-color;
+            }
+            .page-link:hover{
+                color: $white;
+                background-color: $primary-color;
+            }
+        }
+    }
+}
+.login-div{
+    width: 300px;
+    height: 350px;
+    margin: 70px auto;
+    padding: 50px 7px;
+    text-align: center;
+    // border: 1px solid red;
+    position: relative;
+    background-color: #fffffff6;
+    
+    .user-icon{
+        position: absolute;
+        color: $primary-color;
+        border-radius: 50%;
+        background-color: $white;
+        top: -50px;
+        margin-left: -40px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.92);
+    }
+    .login-title{
+        color: $primary-color;
+        text-align: center;
+    }
+    .login-btn{
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        border-radius: 70px;
+        padding: 5px 30px;
+    }
+    .login-btn:hover{
+        background-color: $primary-color;
+        
+    }
+    .input-group{
+        i::before{
+            color: $primary-color;
+        }
+        .form-control:focus{
+            border: 1px solid $primary-color;
+            box-shadow: 0px 0px 5px 0px $primary-color;
+        }
+    }
+}

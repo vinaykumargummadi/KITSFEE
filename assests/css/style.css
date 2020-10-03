@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  top: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+.filter-section .filter .search-btn {
+  border: 1px solid #005dab;
+  color: #005dab;
+}
+
+.filter-section .filter .search-btn:hover {
+  color: #fff;
+  background-color: #005dab;
+}
+
+.student-fee-table thead th {
+  color: #005dab;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  vertical-align: middle !important;
+}
+
+.student-fee-table .fee-pending {
+  color: #ea1f23;
+  font-weight: 600;
+}
+
+.student-fee-table .fee-complete {
+  color: #2ec92e;
+  font-weight: 600;
+}
+
+.pagination-nav .pagination .page-item .page-link {
+  color: #005dab;
+  border: 1px solid #005dab;
+}
+
+.pagination-nav .pagination .page-item .page-link:hover {
+  color: #fff;
+  background-color: #005dab;
+}
+
+.login-div {
+  width: 300px;
+  height: 350px;
+  margin: 70px auto;
+  padding: 50px 7px;
+  text-align: center;
+  position: relative;
+  background-color: #fffffff6;
+}
+
+.login-div .user-icon {
+  position: absolute;
+  color: #005dab;
+  border-radius: 50%;
+  background-color: #fff;
+  top: -50px;
+  margin-left: -40px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.92);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.92);
+}
+
+.login-div .login-title {
+  color: #005dab;
+  text-align: center;
+}
+
+.login-div .login-btn {
+  border: 1px solid #005dab;
+  color: #005dab;
+  border-radius: 70px;
+  padding: 5px 30px;
+}
+
+.login-div .login-btn:hover {
+  background-color: #005dab;
+}
+
+.login-div .input-group i::before {
+  color: #005dab;
+}
+
+.login-div .input-group .form-control:focus {
+  border: 1px solid #005dab;
+  -webkit-box-shadow: 0px 0px 5px 0px #005dab;
+          box-shadow: 0px 0px 5px 0px #005dab;
+}
+/*# sourceMappingURL=style.css.map */
